@@ -10,7 +10,7 @@ body {
 .gridContainer {
   display: grid;
   justify-content: center;
-  padding-top: 7%;
+  padding-top: 5%;
 }
 
 .calculator {
@@ -19,8 +19,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.3);
-  max-width: 450px;
-  min-height: 500px;
+  max-width: 600px;
   border-radius: 10px;
 }
 
@@ -43,7 +42,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 p {
@@ -52,7 +51,7 @@ p {
 }
 
 button {
-  padding: 20px 30px 20px 30px;
+  padding: 30px 40px 30px 40px;
   font-size: 25px;
   margin: 15px;
   color: black;

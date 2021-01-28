@@ -10,7 +10,7 @@ body {
 .gridContainer {
   display: grid;
   justify-content: center;
-  padding-top: 5%;
+  padding-top: 7%;
 }
 
 .calculator {

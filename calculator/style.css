@@ -1,10 +1,16 @@
 body {
   margin: 0;
-  padding: 20px;
+  padding: 0;
   color: white;
   font-size: arial;
   font-weight: 100;
   background-color: rgb(255, 218, 9);
+}
+
+.gridContainer {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .calculator {

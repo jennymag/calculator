@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 20px;
+  padding: 100px;
   color: white;
   font-size: arial;
   font-weight: 100;
@@ -13,7 +13,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.3);
-  max-width: 600px;
+  max-width: 500px;
   border-radius: 10px;
 }
 
@@ -27,7 +27,6 @@ body {
   padding: 40px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
-  min-height: 150px;
 }
 
 #presence {
@@ -45,8 +44,8 @@ p {
 }
 
 button {
-  padding: 30px 40px 30px 40px;
-  font-size: 25px;
+  padding: 20px 30px 20px 30px;
+  font-size: 20px;
   margin: 15px;
   color: black;
   border: 1px solid white;

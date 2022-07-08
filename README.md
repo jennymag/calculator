@@ -1,10 +1,8 @@
 # Calculator
-My calculator is made in vanilla JS.
+Simple calculator made in vanilla JS. Calculating addition, subtraction, multiplication and division.
 
-Visit here to take a look! ---> https://jennymag.github.io/calculator/
+# Demo
+https://simplevanillacalculator.surge.sh/
 
-# Story
-The main goal with this project was to keep practicing JavaScript. The app is calculating addition, subtraction, multiplication and division.
-
-# Me
-https://jennym.se Jenny Magnessen jenny.magnessen@student.kyh.se
+# Contact me
+https://jennym.se Jenny Magnessen jennymagnessen@hotmail.com

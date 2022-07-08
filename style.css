@@ -1,51 +1,49 @@
-body {
-  margin: 0;
-  padding: 100px;
-  color: white;
-  background-color: rgb(255, 218, 9);
-}
-
-.calculator {
-  display: inline-grid;
+ body {
+  background-color: rgb(251, 202, 98);
+  min-height: 100vh
+ }
+.wrapper{
+  min-height: 100vh;
+  display: flex;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
-  max-width: 500px;
-  border-radius: 10px;
+  align-items: center;
+  
 }
-
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255, 0.6);
+  margin: 20px; 
+}
+.screen {
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 200px;
+}
 #keyboard {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 10px;
 }
-
-.screen {
-  padding: 40px;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-}
-
-#presence {
-  display: flex;
-  justify-content: center;
-}
-
-h1 {
-  font-size: 60px;
-}
-
-p {
-  margin: 0px;
-  font-size: 25px;
-}
-
 button {
-  padding: 20px 30px 20px 30px;
-  font-size: 20px;
-  margin: 15px;
+  padding: 20px;
+  width: 110px;
+  font-size: 16px;
+  margin: 5px;
   color: black;
   border: 1px solid white;
   border-radius: 12px;
+}
+#presenceNum {
+  letter-spacing: 5px;
 }

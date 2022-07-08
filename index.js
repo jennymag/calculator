@@ -13,16 +13,16 @@ function number(value) {
     screen.innerHTML = x;
   } else {
     y = y + value;
-    screen.innerHTML = y;
+    screen.innerHTML = x + op + y;
   }
 }
 
 function operator(value) {
   currentOp = true;
+  screen.innerHTML = x + value;
 
   if (value === "=") {
     currentOp = false;
-
     if (op === "+") {
       count = parseInt(x, 10) + parseInt(y, 10);
       screen.innerHTML = count;
@@ -36,7 +36,9 @@ function operator(value) {
       count = parseInt(x, 10) / parseInt(y, 10);
       screen.innerHTML = count;
     }
-  } else {
+   
+  }
+  else {
     op = value;
     if (x === "") {
       x = "0";
